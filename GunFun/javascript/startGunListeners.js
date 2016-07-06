@@ -35,7 +35,7 @@ function startGunListeners(myContract){
       console.log("   / XXXXXX /\\______(   "                       );//)
       console.log("  / XXXXXX /" + "       OfficerID: " + result.args.shooter );
       console.log(" / XXXXXX /"   + "         GunID: " + result.args.gunID);
-      console.log("(________("  + "          Latitude: " + theLat + " Longitude:" + theLong);//))
+      console.log("(________("  + "          Latitude: " + theLat + " Longitude:" + theLong);
       console.log(" `------'");
       console.log("*********************************************************************************");
 
@@ -64,7 +64,7 @@ function startGunListeners(myContract){
         console.log("   / XXXXXX /\\______(   "                       );//)
         console.log("  / XXXXXX /" + "       ShooterID: " + result.args.shooter );
         console.log(" / XXXXXX /"   + "         GunID: " + result.args.gunID);
-        console.log("(________("  + "          Latitude: " + theLat + " Longitude:" + theLong);//))
+        console.log("(________("  + "          Latitude: " + theLat + " Longitude:" + theLong);
         console.log(" `------'");
         console.log("*********************************************************************************");
       }

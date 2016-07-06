@@ -8,8 +8,8 @@ contract Glockchain {
     uint public constant subscriptionFee = 5000000000000000000; //minimum fee required for subscription
     uint256 public  constant subscriptionLength = 5000; //length in blocks to subscribe to data
 
-    mapping(address => Gun) public registeredGuns;
-    mapping(address => bool) public subscribers;
+    mapping(address => Gun) registeredGuns;
+    mapping(address => bool) subscribers;
     mapping(address => uint) donations;
 
     struct Gun {
